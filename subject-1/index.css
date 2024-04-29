@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+}
+
+.buttonLists {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.buttons {
+  padding: 5px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.buttons:hover {
+  background-color: gray;
+  color: white;
+}
+
+.buttons:active {
+  background-color: black;
+  color: white;
+}
