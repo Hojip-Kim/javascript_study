@@ -32,9 +32,7 @@ btn.addEventListener('click', (e) => {
       leftCount.textContent = cnt;
     } else {
       let player = parseInt(playerScore.textContent);
-      console.log(player);
       let computer = parseInt(computerScore.textContent);
-      console.log(computer);
       if (player > computer) {
         gameResult = '게임에서 이겼습니다.';
       } else if (player < computer) {
