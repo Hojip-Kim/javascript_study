@@ -1,0 +1,116 @@
+body {
+  background-color: pink;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 500;
+  /* background-color: pink; */
+}
+
+.title {
+  font-size: 4.5rem;
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+}
+
+.main-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.score {
+  margin-top: 10px;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 2rem;
+}
+
+.choose {
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+.sub {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.buttonLists {
+  margin-top: 10px;
+  display: flex;
+  width: 700px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons {
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(176, 221, 238);
+  color: white;
+  box-shadow: 3px 3px 3px gray;
+
+  /* margin: 10px; */
+}
+
+.buttons:hover {
+  background-color: rgb(109, 184, 214);
+}
+
+.buttons:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.result {
+  height: 50px;
+}
+
+.refresh {
+  padding: 20px 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(176, 221, 238);
+  color: white;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.refresh:hover {
+  background-color: rgb(109, 184, 214);
+}
+
+.refresh :active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.game-result {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
