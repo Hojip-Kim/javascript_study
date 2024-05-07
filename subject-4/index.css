@@ -1,0 +1,45 @@
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  width: 100px;
+  margin: auto;
+  padding: 10px 5px;
+}
+.table-result {
+  margin-top: 20px;
+  width: 1000px;
+  table-layout: fixed;
+}
+
+.table {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 50%;
+  word-break: break-all;
+}
+
+.name,
+.author {
+  font-size: 20px;
+  font-weight: 700;
+}
